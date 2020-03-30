@@ -1,31 +1,26 @@
-## Welcome to GitHub Pages
+## 초아봇 명령어 도움말
 
-You can use the [editor on GitHub](https://github.com/Muzihuzi/blog/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+초아봇을 최초 초대시 접두사(명령어 앞에 붙는 글자)가 `ㅊ`으로 설정됩니다
+초아봇의 명령어에는 항상 접두사가 붙습니다 `ㅊ명령어`형태
+모든 가이드는 **기본접두사(ㅊ)** 를 기준으로 작성되었습니다
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 초아봇 내부 권한체계 관련
+초아봇은 이용자별로 내부 권한체계를 가지고 있습니다
 
-### Markdown
+#ban
+>팀파스텔로부터 이용제제를 받은 사용자
+#none 
+>등록되지 않은 사용자
+#user
+>등록된 일반 사용자
+#teampastel
+>봇 관리권한을 가진 관리자
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### ㅊ핑
+```Markdown
+#봇의 핑(지연시간)을 보여줍니다
+* 초아봇권한 : none 이상
 ```
-
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
