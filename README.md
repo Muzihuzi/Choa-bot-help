@@ -3,6 +3,7 @@
 초아봇을 최초 초대시 접두사(명령어 앞에 붙는 글자)가 `ㅊ`으로 설정됩니다
 초아봇의 명령어에는 항상 접두사가 붙습니다 `ㅊ명령어`형태
 모든 가이드는 **기본접두사(ㅊ)** 를 기준으로 작성되었습니다
+/ 표시는 좌우 단어중 아무거나 입력해도 된다는 설명 입니다
 
 ## 초아봇 내부 권한체계 관련
 초아봇은 이용자별로 내부 권한체계를 가지고 있습니다
@@ -21,15 +22,32 @@
 
 ### ㅊ핑
 ```Markdown
-#봇의 핑(지연시간)을 보여줍니다
+# 봇의 핑(지연시간)을 보여줍니다
 * 초아봇권한 : none 이상
 ```
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### ㅊ가입
+```Markdown
+# 초아봇 이용을위한 사용자등록을 합니다
+* 초아봇권한 : none 이상
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Muzihuzi/blog/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### 프로필 나는/나는?
+```Markdown
+# 초아봇이 보여주는 본인의 프로필입니다
+* 초아봇권한 : none 이상
+```
 
-### Support or Contact
+### 프로필 [@유저]
+```Markdown
+# 초아봇이 보여주는 `@유저`의 프로필입니다
+* 초아봇권한 : user 이상
+```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## 접두사 [접두사] (서버내에서만 작동)
+```Markdown
+# 초아봇의 명령어 앞에붙을 prefix를 설정합니다
+ 설정한 접두사는 해당 서버 내에서만 반영됩니다
+* 초아봇권한 : user 이상
+* 서버내 권한 : 
+```
